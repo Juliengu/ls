@@ -1,0 +1,75 @@
+.device-container {
+    margin-top: -12px;
+}
+.device-mockup {
+    position: relative;
+    width: 100%;
+    padding-bottom: 61.775701%
+    margin-top: -12px;
+}
+
+.device-mockup>.device {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(macbook/macbook.png)
+}
+
+.device-mockup>.device>.screen {
+    position: absolute;
+    top: 11.0438729%;
+    bottom: 14.6747352%;
+    left: 13.364486%;
+    right: 13.364486%;
+    overflow: hidden
+}
+
+
+
+.device-mockup.x,
+.device-mockup.iphonexr.portrait {
+    padding-bottom: 201.19%
+}
+
+
+.device-mockup.iphonexr.portrait.black>.device,
+.device-mockup.iphonexr.black>.device {
+    background-image: url(../weezehome.png)
+}
+
+.device-mockup.iphonexr.portrait>.device>.screen,
+.device-mockup.iphonexr>.device>.screen {
+    top: 7.58%;
+    bottom: 2%;
+    left: 3.77%;
+    right: 5.77%;
+    z-index: -1;
+}
+
+.device-mockup.x,
+.device-mockup.iphonexr1.portrait {
+    padding-bottom: 201.19%
+}
+
+
+.device-mockup.iphonexr1.portrait.black>.device,
+.device-mockup.iphonexr1.black>.device {
+    background-image: url(../weeze.png)
+}
+
+.device-mockup.iphonexr1.portrait>.device>.screen,
+.device-mockup.iphonexr1>.device>.screen {
+    top: 7.58%;
+    bottom: 2%;
+    left: 3.77%;
+    right: 5.77%;
+    z-index: -1;
+}
+
+

@@ -1,0 +1,989 @@
+
+.weeze {
+  width: 170px;
+  height: auto;
+}
+.info {
+  margin-top: 50px;
+}
+
+.globalsection {
+  margin: auto;
+  width: 95%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: white;
+}
+
+.globalsectionn {
+  margin: auto;
+  width: 95%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 50px;
+  background-color: white;
+}
+
+.technosection {
+padding: 0px !important;
+}
+
+.mainsection {
+  width: 100%
+}
+/* Digital platform */
+/* BG */
+.bge {
+  background: url("../img/bg.jpg");
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/* FIN BG */
+* {
+  font-family: Lato;
+  font-style: normal !important;
+}
+
+/* End Digital platform */
+.containerssbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .ssbtn {
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    
+  }
+  
+
+  
+  
+  .btn-2 {
+    letter-spacing: 0;
+  }
+  
+  .btn-2:hover,
+  .btn-2:active {
+    letter-spacing: 50px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn-2:after,
+  .btn-2:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+  }
+  
+  .btn-2:hover:after,
+  .btn-2:hover:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+  }
+  
+  .btn-2:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%;
+  }
+  
+
+
+#carousel-example-generic .item img {
+    height: 500px;
+    width: auto;
+    margin: 0 auto
+}
+
+.item {
+    size: 300px
+}
+
+.carousel-inner .item {
+    size: 200px
+}
+
+.glyphicon-chevron-left:before {
+    background-image: url(../img/leftarrow.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+    background-repeat: no-repeat
+}
+
+.glyphicon-chevron-right:before {
+    background-image: url(../img/rightarrow.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+    background-repeat: no-repeat
+}
+
+#slider2 {
+    max-width: 30%;
+    margin-right: 20px
+}
+
+.row2Wrap {
+    display: flex
+}
+
+.content {
+    padding: 50px;
+    margin-bottom: 100px
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .wrapper {
+        width: 100%;
+        display: flex;
+        margin-left: 10%
+    }
+}
+
+
+video {
+    object-fit: fill !important
+    height: 711px;
+}
+
+.wrapper .phone {
+    width: 360px;
+    height: 705px;
+    border: 3px solid #999;
+    border-radius: 40px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #212121;
+    box-sizing: border-box
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 700px)  {
+
+
+.wrapper .phone {
+  margin-left: -37%;
+
+}
+}
+
+
+.wrapper .phone .notch {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    background-color: #212121;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2
+}
+
+.wrapper .phone .censor {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    left: 140px;
+    background-color: #292929;
+    border-radius: 50%;
+    z-index: 3
+}
+
+.wrapper .phone .camera {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    background-color: #292929;
+    border-radius: 50%;
+    z-index: 3
+}
+
+.wrapper .phone .speaker {
+    width: 50px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    background-color: #292929;
+    border-radius: 10px;
+    z-index: 3
+}
+
+.wrapper .phone .screen {
+    width: 335px;
+    height: 680px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.rocket:before {
+    background-image: url(../img/rocket.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+    background-repeat: no-repeat;
+    margin: 0 41%;
+}
+
+.digital:before {
+  
+    background-image: url(../img/seo.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+    background-repeat: no-repeat;
+    margin: 0 41%;
+}
+
+.aboutus {
+    text-align: center
+}
+
+.aboutus .sec {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+    margin-top: 20px
+}
+
+.aboutus .sec2 {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    margin-top: 20px
+}
+
+.showmore {
+  margin: 80px;
+}
+.aboutus .sec:hover {
+    box-shadow: 0 10px 10px 7px rgba(0, 0, 0, .05);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s
+}
+
+.aboutus .sec2:hover {
+    box-shadow: 0 10px 10px 7px rgba(0, 0, 0, .05);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s
+}
+
+.tabicon1:before {
+    background-image: url(../img/process.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+    background-repeat: no-repeat
+}
+
+.tabicon2:before {
+    background-image: url(../img/platform.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+    background-repeat: no-repeat
+}
+
+.tabicon3:before {
+    background-image: url(../img/place.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+    background-repeat: no-repeat
+}
+
+#digitalservices {
+    height: 100vh !important;
+    margin-bottom: 0
+}
+
+#pillars {
+    margin-bottom: 0
+}
+
+#teamb {
+    height: 5px !important
+}
+
+#contactbanner {
+    height: 15vh
+}
+
+#contactbanner h1 {
+    font-size: 30px;
+    margin-top: -2%;
+    margin-bottom: -20px
+}
+
+#teambanner {
+    height: 15vh
+}
+
+#teambanner h1 {
+    font-size: 30px;
+    margin-top: -2%;
+    margin-bottom: -20px
+}
+
+.card4 {
+    margin-top: 20px
+}
+
+.bg-gradient {
+    background: #ac32e4 !important;
+    background: linear-gradient(to right, #ac32e4 0%, #ac32e4 20%, #e833b0 100%) !important
+}
+
+.team-card-style-5 {
+    max-width: 230px;
+    text-align: center
+}
+
+.team-contact-link {
+    display: block;
+    margin-top: 4px;
+    transition: all .25s;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none
+}
+
+.team-contact-link>i {
+    display: inline-block;
+    font-size: 1.1em;
+    vertical-align: middle
+}
+
+.team-card-style-5 .team-name {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.team-thumb>img {
+    display: block;
+    height: 250px
+}
+
+.team-card-style-5 {
+    padding-bottom: 24px;
+    transition: box-shadow .35s .12s
+}
+
+.team-card-style-5 .team-thumb {
+    position: relative;
+    margin-bottom: 24px
+}
+
+.team-card-style-5 .team-thumb::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity .35s .12s;
+    background-color: #ac32e4;
+    content: '';
+    opacity: 0;
+    z-index: 1
+}
+
+.team-card-style-5 .team-card-inner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    padding-bottom: 26px;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    transition: all .35s .12s;
+    text-align: center;
+    opacity: 0;
+    z-index: 5
+}
+
+.team-card-style-5 .team-contact-link,
+.team-card-style-5 .team-contact-link:hover {
+    color: #fff
+}
+
+.team-card-style-5 .sb-style-6.sb-light-skin,
+.team-card-style-5 .sb-style-7.sb-light-skin {
+    border-color: rgba(255, 255, 255, .35)
+}
+
+.team-card-style-5 .team-name {
+    margin-bottom: 6px;
+    padding: 0 16px
+}
+
+.team-card-style-5 .team-position {
+    display: block;
+    padding: 0 16px;
+    transition: color .35s .12s
+}
+
+.team-card-style-5:hover {
+    box-shadow: 0 12px 20px 1px rgba(64, 64, 64, .09)
+}
+
+.team-card-style-5:hover .team-thumb::after {
+    opacity: .7
+}
+
+.team-card-style-5:hover .team-card-inner {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1
+}
+
+.team-card-style-5:hover .team-position {
+    color: #ac32e4
+}
+
+.lestudio {
+    color: white;
+    padding-top: 59px
+}
+
+.soustitretimeline {
+    padding-bottom: 700px
+}
+
+.timeline {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    font-weight: 900;
+    color: white
+}
+
+.tabstimeline {
+    color: black
+}
+
+.timelinestart {
+    margin-bottom: -500px
+}
+  
+  /* Début cartes Digit Plat */
+  .containercard {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+  }
+  
+  .card {
+    background-color: #fff;
+    max-width: 1184px;
+    box-shadow: 2px 2px 5px #9E9E9E, -1px -1px 5px #9E9E9E;
+    border-radius: 3px;
+    display: grid;
+    grid-template-column: repeat(5, 1fr);
+    position: relative;
+    height:304px;
+  }
+  
+  .card .img-container,
+  .card .img-container2 {
+    height: 306px;
+    width: 440px;
+    grid-column: 2;
+    background-color: #c1b7b4;
+    background-image: url('../img/web.jpeg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .card .img-container2 {
+    background-image: url('../img/devops.jpeg');
+  }
+  
+  .card:hover h2 {
+    transition: color 0.3s ease;
+    color: #e04f62;
+  }
+  
+  
+  .card .img-container,
+  .card .img-container2,
+  .card .techno {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  
+  .card:hover .img-container,
+  .card:hover .img-container2,
+  .card:hover  .techno{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  
+  
+  .card-content {
+    grid-column: 3 / 5;
+    padding: 10px 30px;
+  }
+  
+  .card-content .author {
+    border-top: 1px solid #cdcdcd;
+    font-weight: 700;
+    margin-top: 58px;
+    padding: 25px 0 10px 0px;
+    color: #555;
+  }
+  
+  @media only screen and (max-width:600px) {
+    .card {
+      display: block;
+    }
+  
+    .card .img-container,
+    .card .img-container2 {
+      height: 240px;
+      width: 100%;
+      transition: opacity 0.3s ease;
+      display: block;
+      object-fit: cover;
+    }
+  
+    .card-content {
+      border: 0;
+      border-top: 1px solid #ccc;
+    }
+  }
+  
+  
+  
+  /* Techno */
+  .techno {
+  
+    position:absolute;
+    bottom: -20px;
+    right: 10px;
+  
+  }
+  .techno p {
+    margin-left: 10px;
+    margin: 18px 0 10px;
+    
+  }
+  
+  .techno a {
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none !important;
+    font-family: fontawesome;
+    position: relative;
+    display: inline-block;
+    padding-top: 7px;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -webkit-font-smoothing: antialiased
+  }
+  
+  .techno a:hover {
+    background: #FFE0B2
+    text-decoration: none !important;
+  }
+  
+  .techno a span {
+    color: #666;
+    position: absolute;
+    font-family: sans-serif;
+    bottom: 0;
+    top: -57px;
+    left: -25px;
+    right: -25px;
+    padding: 10px 7px;
+    z-index: 1;
+    font-size: 14px;
+    border-radius: 2px;
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    -o-transition: all .5s cubic-bezier(.68, -.55, .265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(.68, -.55, .265, 1.55);
+    -moz-transition: all .5s cubic-bezier(.68, -.55, .265, 1.55);
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55)
+  }
+  
+  .techno a span:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    bottom: -5px;
+    left: 40px
+  }
+  
+  .techno a:hover span {
+    bottom: 105px;
+    visibility: visible;
+    opacity: 1
+  }
+  
+  .test1:before {
+    background-image: url(../img/techno1.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test2:before {
+    background-image: url(../img/techno2.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test3:before {
+    background-image: url(../img/techno3.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test4:before {
+    background-image: url(../img/techno4.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test5:before {
+    background-image: url(../img/techno5.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test6:before {
+    background-image: url(../img/techno6.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test7:before {
+    background-image: url(../img/techno7.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test8:before {
+    background-image: url(../img/techno8.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test9:before {
+    background-image: url(../img/techno9.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test10:before {
+    background-image: url(../img/techno10.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test11:before {
+    background-image: url(../img/techno11.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test12:before {
+    background-image: url(../img/techno12.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test13:before {
+    background-image: url(../img/techno13.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test14:before {
+    background-image: url(../img/techno14.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test15:before {
+    background-image: url(../img/techno15.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test16:before {
+    background-image: url(../img/techno16.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+  
+  .test17:before {
+    background-image: url(../img/techno17.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat
+  }
+
+
+  @media only screen and (max-width:600px) {
+    .test1:before,
+    .test2:before,
+    .test3:before,
+    .test4:before,
+    .test5:before,
+    .test6:before,
+    .test7:before,
+    .test8:before,
+    .test9:before,
+    .test10:before,
+    .test11:before,
+    .test12:before,
+    .test13:before,
+    .test14:before,
+    .test15:before,
+    .test16:before,
+    .test17:before {
+  
+  
+    height: 20px;
+    margin-left: -15px;
+  
+    }
+  
+    @media only screen and (max-width:600px) {
+      .techno a:hover {
+        background: none;
+      }
+    
+      }
+  
+      @media only screen and (max-width:600px) {
+        .techno a span { {
+          background: none;
+        }
+      
+        }
+
+        @media only screen and (max-width:600px) {
+        .card {
+            height: 590px;
+        }
+    }
+
+    @media only screen and (max-width:600px) {
+        .techno p {
+            margin-bottom: 3px;
+  
+            
+          }
+    }
+    @media only screen and (max-width:600px) {
+      .technop p {
+          margin-bottom: 3px;
+          margin-right: 9px;
+          
+        }
+  }
+
+  /* Fin techno */
+  /* Fin cartes Digit Plat */
+
+.divcenter12 {
+    width: 50%;
+    margin: 0 auto
+}
+
+
+
+.containerphoto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.thecamp {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
